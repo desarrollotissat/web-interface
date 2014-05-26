@@ -1,0 +1,75 @@
+<?php
+
+namespace Cloud\SyncserviceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * User1
+ *
+ * @ORM\Table(name="user1")
+ * @ORM\Entity
+ */
+class User1
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=100, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="cloud_id", type="string", length=100, nullable=false)
+     */
+    private $cloudId;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=100, nullable=false)
+     */
+    private $email;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="quota_limit", type="integer", nullable=false)
+     */
+    private $quotaLimit;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="quota_used", type="integer", nullable=false)
+     */
+    private $quotaUsed;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="bigint")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="user1_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="Cloud\SyncserviceBundle\Entity\Workspace", mappedBy="user")
+     */
+    private $workspace;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->workspace = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+}

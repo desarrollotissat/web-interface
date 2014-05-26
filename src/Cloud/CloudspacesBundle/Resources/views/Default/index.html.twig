@@ -1,0 +1,251 @@
+{% extends 'CloudCloudspacesBundle::portada.html.twig' %}
+
+{% set usuarioLogin = app.user %}
+
+{% block contentleft %}
+		<h3>{{ 'your.session.locale' }} [{{ app.session.get('_locale') }}]</h3>
+        <h3>{{ 'your.request.locale' }} [{{ app.request.get('_locale') }}]</h3>
+	<div class="separador"> </div>
+
+	{% if usuario.admin == 1 %}
+ 		<a href="{{ path('cloud_usuario_listado') }}" class="symfony-button-grey"> Usuarios </a>
+ 	{% else %}
+ 		<a href="{{ path('cloud_usuario_detalle',{'id': usuarioLogin.id}) }}" class="symfony-button-grey"> Mi perfil </a>
+ 	{% endif%}
+ 	<div class="separadormini"> </div>
+
+ 	<a class="symfony-button-grey"> Grupos </a>
+
+ 	<div class="separadormini"> </div>
+
+ 	<a class="symfony-button-grey"> Alertas </a>
+
+ 	<div class="separadormini"> </div>
+
+ 	<a class="symfony-button-grey"> Espacio en disco </a>
+
+ 	<div class="separadormini"> </div>
+
+ 	<a class="symfony-button-grey"> Análisis </a>
+
+ 	<div class="separadormini"> </div>
+
+ 	<a class="symfony-button-grey"> Facturación </a>
+
+ 	<div class="separador"> </div>
+
+ 	<div class="separador"> </div>
+
+ 	{% if usuario.admin == 1 %}
+ 		<a class="symfony-button-grey"> Configuración del sistema </a>
+ 	{% endif %}
+ 	<div class="separador"> </div>
+
+{% endblock %}
+
+{% block leftBeforeContent %}
+	<!--<img src="{{ asset('imagenes/ayuda.png') }}" alt="Ayuda" />-->
+
+	<a href="{{ path('nuevo_usuario_cloud') }}" >
+		<img src="{{ asset('imagenes/registro.png') }}" alt="Registro" />
+	</a>
+{% endblock %}
+
+
+{% block content %}
+
+	{% if usuarios is defined %}
+
+ 		<div class="separador"> </div>
+
+ 		<table class="listadoUsuarios" border=1>
+ 			<thead>
+ 				<tr>
+ 					<th>Usuario</th>
+ 					<th>Grupo</th>
+ 					<th>Estado</th>
+ 				</tr>
+ 			</thead>
+
+ 			<tbody>
+		 		{% for usuario in usuarios %}
+		           <tr>
+		           		<td>
+		           			<a href="{{ path('cloud_usuario_listado') }}{{ usuario.id }}">{{ usuario.email }}</a>
+		           		</td>
+		           		<td>
+		           			{{ usuario.grupo }}
+		           		</td>
+		           		<td>
+		           			{{ usuario.estado }}
+		           		</td>
+
+		           </tr>
+		        {% endfor %}
+		    </tbody>
+
+ 		</table>
+
+ 	{% endif %}
+
+
+ 	{% if directorios is defined %}
+
+ 		<div class="separador"> </div>
+
+ 		<table class="listadoDirectorios" border=0>
+ 			<thead>
+ 				<tr>
+ 					<th>
+ 						{% if container is defined %}
+	 						<a href="{{ path('cloud_listado_container', {'container': container}) }}">
+	 							<img src="{{ asset('imagenes/parentDirectory.png') }}" alt="Cloudspaces" />
+	 						</a>
+ 						{% else %}
+ 							<img src="{{ asset('imagenes/parentDirectory.png') }}" alt="Cloudspaces" />
+ 						{% endif %}
+ 					</th>
+ 					<!-- <th class="subrayado">Seguridad</th>-->
+ 					<!--<th class="subrayado">Nube</th>!-->
+ 				</tr>
+ 			</thead>
+
+ 			<tbody>
+
+ 				{% for directorio in directorios %}
+					{{ dump(directorio) }}
+
+					{% if directorio.folder is defined and directorio.folder != 1 %}
+						 <tr>
+			           		<td>
+
+			           			{% set path = directorio.path|trim('/') %}
+
+			           			{% if directorio.path == '/' %}
+
+	           						<a href="{{ path('cloud_descargar_fichero', {'id': directorio.name ~ '/' ~ directorio.id}) }}">
+				           				<img src="{{ asset('imagenes/fichero.PNG') }}" alt="Cloudspaces" /> {{directorio.name }}
+				           			</a>
+
+	           					{%else%}
+
+	           						<a href="{{ path('cloud_descargar_fichero', {'id': path ~ '/' ~ directorio.name ~ '/' ~ directorio.id}) }}">
+			           				<img src="{{ asset('imagenes/fichero.PNG') }}" alt="Cloudspaces" /> {{directorio.name }}
+			           			</a>
+
+	           					{%endif%}
+
+
+
+			           		</td>
+
+			           		<td>
+
+			           		</td>
+
+			           		<td>
+
+			           		</td>
+
+			          	 </tr>
+			        {% else %}
+			          	 <tr>
+	           				<td>
+
+	           					{% set path = directorio.path|trim('/') %}
+
+	           					{% if directorio.path == '/' %}
+
+	           						<a href="{{ path('cloud_listado_container', {'container': directorio.name}) }}">
+	           							<img src="{{ asset('imagenes/directorio.PNG') }}" alt="Cloudspaces" /> {{directorio.name }}
+	           						</a>
+
+	           					{%else%}
+
+	           						<a href="{{ path('cloud_listado_container', {'container': path ~ '/' ~ directorio.name}) }}">
+	           							<img src="{{ asset('imagenes/directorio.PNG') }}" alt="Cloudspaces" /> {{directorio.name }}
+	           						</a>
+
+	           					{%endif%}
+
+
+	           				</td>
+
+	           				<td>
+
+	           				</td>
+
+	           				<td>
+
+	           				</td>
+
+	           			</tr>
+				 	{% endif %}
+
+
+				{% endfor %}
+
+		 	</tbody>
+ 		</table>
+
+ 	{% endif %}
+
+
+{% endblock %}
+
+{% block contentright %}
+
+	<div class="separador"> </div>
+
+	<img src="{{ asset('imagenes/nube.png') }}" alt="Cloudspaces" />
+
+	<a href="">{% trans %}Mi Nube{% endtrans %}</a>
+
+	<div class="separador"> </div>
+
+ 	<img src="{{ asset('imagenes/agenda.png') }}" alt="Cloudspaces" />
+
+ 	<a href="">Agenda</a>
+
+ 	<div class="separador"> </div>
+
+ 	<img src="{{ asset('imagenes/aplicaciones.png') }}" alt="Cloudspaces" />
+
+ 	<a href="">Aplicaciones</a>
+
+	<div class="separador"> </div>
+
+	<div class="separador"> </div>
+
+	<div class="separador"> </div>
+
+	<div class="separador"> </div>
+
+	<img src="{{ asset('imagenes/servicios.png') }}" alt="Cloudspaces" />
+
+	<a href="">Servicios</a>
+
+ 	<div class="separador"> </div>
+
+
+{% endblock %}
+
+{% block beforeContent %}
+
+	<div id="bListado">
+		<div>
+			<input type="text" name="" id="" value="" title="Usuario">
+			<input type="text" name="" id="" value="" title="Nombre">
+			<input type="text" name="" id="" value="" title="Apellido 1">
+			<input type="text" name="" id="" value="" title="Apellido 2">
+		</div>
+
+		<div>
+			<input type="text" name="" id="" value="" title="Grupo">
+			<input type="text" name="" id="" value="" title="Estado">
+			<input type="text" name="" id="" value="" title="Perfil">
+			<input type="submit" name="" id="" value="Filtrar" title="Filtrar">
+		</div>
+	</div>
+
+{% endblock %}

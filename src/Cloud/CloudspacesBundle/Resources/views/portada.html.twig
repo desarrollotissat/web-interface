@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Cloudspaces{% endblock %}</title>
+        <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('css/portada.css') }}" />
+    </head>
+    
+    {% set usuario = app.user %}
+      
+    <body>
+        <div id="symfony-wrapper">
+            <div id="symfony-header">
+                
+                <div class="leftCabecera" >
+	                <a href="{{ path('cloud_cloudspaces_homepage') }}">
+	                    <img alt="Cloudspaces" class="imgcloud" src="{{ asset('imagenes/StackSync.png') }}">
+	                </a>
+                </div>
+                
+                <div class="centerCabecera" >
+                  
+                </div>
+               
+               <div class="idioma">
+               		<img src="{{ asset('imagenes/logo_tissat.png') }}" alt="Cloudspaces" />
+               </div>
+            </div>
+
+            {% for flashMessage in app.session.flashbag.get('notice') %}
+                <div class="flash-message">
+                    <em>Notice</em>: {{ flashMessage }}
+                </div>
+            {% endfor %}
+
+            
+            <div style="clear: both"></div>
+
+            <div class="symfony-content">
+            	
+            	<div class="leftContent">
+            	                	
+	                	{% block contentleft %}
+	                	{% endblock %}
+	                
+                </div>
+                
+                <div class="content">
+                	{% block content %}
+                	{% endblock %}
+                </div>
+                
+                <div class="rightContent">
+                	{% block contentright %}
+                	{% endblock %}
+                </div>
+                
+                <div class="separador" style="clear:both"> </div>
+                
+                
+                <div class="leftBeforeContent">
+                	{% block leftBeforeContent %}
+                	{% endblock %}
+                </div>
+                
+                <div class="beforeContent">
+                	{% block beforeContent %}
+                	{% endblock %}
+                </div>
+                
+                            
+                <div class="logout">
+	                
+	                <a href="{{ path('logout') }}">
+	                	<img src="{{ asset('imagenes/logout.png') }}" alt="Cerrar sesión" />
+	                </a>
+	                
+	                <p>Bienvenido, <b>{{ usuario.nombre }}</b></p>
+                
+                <div>
+                
+            </div>
+
+            {% if code is defined %}
+                <h2>Code behind this page</h2>
+                <div class="symfony-content">{{ code|raw }}</div>
+            {% endif %}
+        </div>
+    </body>
+</html>

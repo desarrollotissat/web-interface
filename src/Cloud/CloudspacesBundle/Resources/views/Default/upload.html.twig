@@ -1,0 +1,29 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Upload a file{% endtrans %}
+{% endblock %}
+
+{% block page %}
+<div data-role="page" id="upload">
+{% endblock %}
+
+{% block content %}
+    {{ form_errors(formulario) }}
+    <form id="form-upload"  action="{{path('upload',{'path': path } )}}" method="post" {{ form_enctype(formulario) }} data-ajax="false">
+
+        {{ form_widget(formulario) }}
+        {{ form_rest(formulario) }}
+    {{ form_end(formulario) }}
+
+    <a data-ajax="false" href="{{ path('cloud_listado_container',{'path': path }) }} ">{% trans %}Go back{% endtrans %}</a>
+
+{% endblock %}
+
+{% block js %}
+    $(document).on('pageinit', function(){
+        $(document).on('click', '#form_Enviar',function(event) {
+            $.mobile.showPageLoadingMsg();
+        });
+    });
+{% endblock %}

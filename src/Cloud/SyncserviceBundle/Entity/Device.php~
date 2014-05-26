@@ -1,0 +1,43 @@
+<?php
+
+namespace Cloud\SyncserviceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Device
+ *
+ * @ORM\Table(name="device")
+ * @ORM\Entity
+ */
+class Device
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=100, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="bigint")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="device_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \Cloud\SyncserviceBundle\Entity\User1
+     *
+     * @ORM\ManyToOne(targetEntity="Cloud\SyncserviceBundle\Entity\User1")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+
+}

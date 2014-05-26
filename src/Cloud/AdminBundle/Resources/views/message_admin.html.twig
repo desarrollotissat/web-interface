@@ -1,0 +1,13 @@
+{% extends 'CloudCloudspacesBundle::message.html.twig' %}
+
+{% block content %}
+
+    {% for user in users %}
+        <li>{{ user.getEmail() }}</li>
+    {% endfor %}
+
+    <div>
+        <a data-ajax="false" href="{{ path }} ">{% trans %}Go back{% endtrans %}</a>
+    </div>
+
+{% endblock %}

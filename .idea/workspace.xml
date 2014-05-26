@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="2" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Utility/Identity.php" line="122" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c619795e-f22e-42a4-b5c2-69d6de8090ad" name="Default" comment="" />
+    <ignored path="Symfony.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/parameters.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384173979819" ignored="false" />
+    <file path="$PROJECT_DIR$/../cloudspaces/app/config/routing_dev.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1377855480537" ignored="false" />
+    <file path="/config_dev.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378452041312" ignored="false" />
+    <file path="/routing.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385121603547" ignored="false" />
+    <file path="/Dummy.txt" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385540352275" ignored="false" />
+    <file path="/security.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379416425731" ignored="false" />
+    <file path="/mobile_index.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382353384471" ignored="false" />
+    <file path="/a.dummy" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385381104627" ignored="false" />
+    <file path="/jquery.mobile.css" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378120268326" ignored="false" />
+    <file path="/DefaultController.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384851833227" ignored="false" />
+    <file path="/messages.en.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381837603183" ignored="false" />
+    <file path="/registro.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384433648161" ignored="false" />
+    <file path="/mobile_base.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383671831568" ignored="false" />
+    <file path="/config.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384419057656" ignored="false" />
+    <file path="/recover_pass.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378303673487" ignored="false" />
+    <file path="/mail.txt.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379434030488" ignored="false" />
+    <file path="/error.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378386903155" ignored="false" />
+    <file path="/mobile_edit.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384272985418" ignored="false" />
+    <file path="/message.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381845693575" ignored="false" />
+    <file path="/Document.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378460667399" ignored="false" />
+    <file path="/upload.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383581006935" ignored="false" />
+    <file path="/mobile_index2.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379001678429" ignored="false" />
+    <file path="/a.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1378977501569" ignored="false" />
+    <file path="/recover_pass.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381845084958" ignored="false" />
+    <file path="/PasswordReset.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379410646435" ignored="false" />
+    <file path="/cloud.js" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379515738542" ignored="false" />
+    <file path="/mobile_index.html2.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379503945589" ignored="false" />
+    <file path="/folder.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381845795806" ignored="false" />
+    <file path="/normas.en.txt" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1379926373559" ignored="false" />
+    <file path="/autoload.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1380283959747" ignored="false" />
+    <file path="/UsuarioRegistroType.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1380285323779" ignored="false" />
+    <file path="/messages.es.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382541370323" ignored="false" />
+    <file path="/UtilityTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381221433171" ignored="false" />
+    <file path="/Swift.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384795267519" ignored="false" />
+    <file path="/phpunit.xml.dist" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382527544073" ignored="false" />
+    <file path="/SwiftTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382096177308" ignored="false" />
+    <file path="/delete.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1381759796607" ignored="false" />
+    <file path="/SwiftError.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382019688176" ignored="false" />
+    <file path="/SwiftContainersTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1382091512394" ignored="false" />
+    <file path="/SwiftObjectTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384170263360" ignored="false" />
+    <file path="/UsuarioRepository.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385119272121" ignored="false" />
+    <file path="/UsuarioRepositoryTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385119380272" ignored="false" />
+    <file path="/index.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384763306636" ignored="false" />
+    <file path="/message_admin.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385456575621" ignored="false" />
+    <file path="/Group.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383584763509" ignored="false" />
+    <file path="/Identity.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384506406937" ignored="false" />
+    <file path="/HTTPClient.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383747535230" ignored="false" />
+    <file path="/HTTPClientTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383747791499" ignored="false" />
+    <file path="/IndentityTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384424952396" ignored="false" />
+    <file path="/base.html" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383758233543" ignored="false" />
+    <file path="/base.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383758690721" ignored="false" />
+    <file path="/Test.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383902900500" ignored="false" />
+    <file path="/Workspace_user.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383902764015" ignored="false" />
+    <file path="/UsuarioSyncService.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383905850161" ignored="false" />
+    <file path="/SyncServiceUser.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383909989789" ignored="false" />
+    <file path="/SyncServiceUserTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383908995420" ignored="false" />
+    <file path="/KeystoneUserRegister.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383926120664" ignored="false" />
+    <file path="/KeystoneUserRegisterTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1383927481363" ignored="false" />
+    <file path="/StorageUserRegisterTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384514909234" ignored="false" />
+    <file path="/StorageUserRegister.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384515582046" ignored="false" />
+    <file path="/SwiftAdmin.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384166649464" ignored="false" />
+    <file path="/SwiftContainerTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384170876353" ignored="false" />
+    <file path="/SyncServiceRegistry.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384505932203" ignored="false" />
+    <file path="/Usuarios.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384244272765" ignored="false" />
+    <file path="/exception.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245300312" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/twig/96/60/b0afe0900d096500ed15fa655b5d.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245629187" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/twig/aa/da/ef1337ea1d00b4fb74d6cd8840a5.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245629203" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/twig/a8/e5/eb9ec936dfc363223112d03f3e4d.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245629203" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/twig/7a/88/a913e40d80703f5c1b28426921e1.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245629203" ignored="false" />
+    <file path="/error403.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384245791062" ignored="false" />
+    <file path="/SyncServiceRegistryTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384504996484" ignored="false" />
+    <file path="/UsuarioRegistroNoCaptchaType.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384773323212" ignored="false" />
+    <file path="/UsuarioType.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384342903735" ignored="false" />
+    <file path="/KernelTestCase.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384363674713" ignored="false" />
+    <file path="/StorageServiceConstants.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384424610914" ignored="false" />
+    <file path="/services.yml" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384789771176" ignored="false" />
+    <file path="/UserController.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385124184801" ignored="false" />
+    <file path="/UserRegistrator.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384450023140" ignored="false" />
+    <file path="/WebUserRegistrator.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384789926821" ignored="false" />
+    <file path="/WebUserRegistratorTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384517348518" ignored="false" />
+    <file path="/edit.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384773250138" ignored="false" />
+    <file path="/register.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384772430285" ignored="false" />
+    <file path="/ListUsers.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385481416727" ignored="false" />
+    <file path="/StorageUserServiceTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384777354599" ignored="false" />
+    <file path="/AdminUsuarioType.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384780750967" ignored="false" />
+    <file path="/EditUserFormType.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384784698209" ignored="false" />
+    <file path="/SyncService.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385045535092" ignored="false" />
+    <file path="/StorageUserService.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1384791976154" ignored="false" />
+    <file path="/WebUserService.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385455776285" ignored="false" />
+    <file path="/RegisterUserTest.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385050615900" ignored="false" />
+    <file path="/README" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385032140607" ignored="false" />
+    <file path="/tissat.csv" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385051694611" ignored="false" />
+    <file path="/ListUsersPaginated.html.twig" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385128526654" ignored="false" />
+    <file path="/jquery.dataTables.css" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385464104376" ignored="false" />
+    <file path="/Permission.php" changelist="c619795e-f22e-42a4-b5c2-69d6de8090ad" time="1385397926811" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Symfony$IndentityTest.coverage" NAME="IndentityTest Coverage Results" MODIFIED="1383755345067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Symfony" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ListUsers.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/Default/ListUsers.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="10" selection-start="5034" selection-end="5172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Permission.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Entity/Permission.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="284" selection-end="284" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="10" selection-start="721" selection-end="721" vertical-scroll-proportion="0.65625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="apiweb-usuarios" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Entity/UsuarioRepository.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/UsuarioRepositoryTest.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/Default/ListUsersPaginated.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Resources/views/mobile_base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Entity/Permission.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/WebUserService.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/message_admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Entity/Usuarios.php" />
+        <option value="$PROJECT_DIR$/web/css/jquery.dataTables.css" />
+        <option value="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/Default/ListUsers.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="" />
+    <scope name="Unnamed1" pattern="" />
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="localhost/Symfony/web" name="localhost" />
+      <server host="localhost" name="localhost (1)" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsuarioBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsuarioBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwigBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="41" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="52" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="53" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="475" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="225" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="132" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="131" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig" serverName="servidor" serverId="58d2b127-1c3c-4ffa-9228-148e30cdbaae">
+    <servers>
+      <server id="58d2b127-1c3c-4ffa-9228-148e30cdbaae">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Symfony\web\css" />
+      <recent name="C:\xampp\htdocs\Symfony\web\js" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\AdminBundle\Resources\views\Default" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\StorageSystemBundle\Tests" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\AdminBundle\Form" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\AdminBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\AdminBundle\Form" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\StorageSystemBundle\Tests\Utility" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\StorageSystemBundle\Tests" />
+      <recent name="C:\xampp\htdocs\Symfony\src\Cloud\StorageSystemBundle\Utility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.Unnamed">
+    <configuration default="false" name="UsuarioRepositoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Cloud\UsuarioBundle\Tests\UsuarioRepositoryTest" file="$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/UsuarioRepositoryTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <CommandLine workingDirectory="$PROJECT_DIR$/../../php" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <CommandLine workingDirectory="$PROJECT_DIR$/../../php" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" path="" server_id="10367028-81f6-4b46-81a7-85bfb701ac18" server_name="servidor">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="localhost">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.UsuarioRepositoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.UsuarioRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c619795e-f22e-42a4-b5c2-69d6de8090ad" name="Default" comment="" />
+      <created>1377854322848</created>
+      <updated>1377854322848</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <created>1377862706043</created>
+      <updated>1377862706043</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adaptación para movil">
+      <created>1378218321325</created>
+      <updated>1378218321325</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Upload al servidor local">
+      <created>1378467913144</created>
+      <updated>1378467913144</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Upload openstack">
+      <created>1378734514792</created>
+      <updated>1378734514792</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Password reset completo&#10;Posible solución al problema de getelementbyid nulo en algunos casos en la pantalla de login">
+      <created>1379582534187</created>
+      <updated>1379582534187</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reorganizar js">
+      <created>1379598932620</created>
+      <updated>1379598932620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="quitar 'page' de base">
+      <created>1379945677895</created>
+      <updated>1379945677895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="js funcionan las webs con una transicion&#10;">
+      <created>1380105017847</created>
+      <updated>1380105017847</updated>
+    </task>
+    <task id="LOCAL-00009" summary="quitar alert(aa)">
+      <created>1380117169638</created>
+      <updated>1380117169638</updated>
+    </task>
+    <task id="LOCAL-00010" summary="anyadir captcha y intento usar form_end, porque enctype lo eliminaran en futuras versiones">
+      <created>1380714231979</created>
+      <updated>1380714231979</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fallos en recover y en data-ajax">
+      <created>1381132095811</created>
+      <updated>1381132095811</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fallo en la aparicion directio superior">
+      <created>1381156615770</created>
+      <updated>1381156615770</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cambio en lugar de mensaje">
+      <created>1381216554125</created>
+      <updated>1381216554125</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cambio a ingles apiweb">
+      <created>1381843828584</created>
+      <updated>1381843828584</updated>
+    </task>
+    <task id="LOCAL-00015" summary="funciona confirm eliminar carpetas">
+      <created>1381911603659</created>
+      <updated>1381911603659</updated>
+    </task>
+    <task id="LOCAL-00016" summary="subir gif">
+      <created>1381911737552</created>
+      <updated>1381911737552</updated>
+    </task>
+    <task id="LOCAL-00017" summary="addusernoroot">
+      <created>1382438854005</created>
+      <updated>1382438854005</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ultima subida antes de la prueba">
+      <created>1382541478208</created>
+      <updated>1382541478208</updated>
+    </task>
+    <task id="LOCAL-00019" summary="listado usuarios&#10;">
+      <created>1383231752708</created>
+      <updated>1383231752708</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fallos idioma&#10;&#10;">
+      <created>1383582070303</created>
+      <updated>1383582070303</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Introduccion de em=stacksync&#10;">
+      <created>1383668918375</created>
+      <updated>1383668918375</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sync service + identity&#10;">
+      <created>1383914922047</created>
+      <updated>1383914922047</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2 entrega listado add/delete users - admin">
+      <created>1384274373274</created>
+      <updated>1384274373274</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Reorganizar ficheros dentro de bundles">
+      <created>1384793221720</created>
+      <updated>1384793221720</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ficheros anyadidos">
+      <created>1384852912963</created>
+      <updated>1384852912963</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Anyadir testing 150 usuarios.&#10;Quitar DI en syncservice&#10;&#10;">
+      <created>1385115307138</created>
+      <updated>1385115307138</updated>
+    </task>
+    <task id="LOCAL-00027" summary="uso datatables para paginacion&#10;">
+      <created>1385382543841</created>
+      <updated>1385382543841</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Listado con datatables">
+      <created>1385481116325</created>
+      <updated>1385481116325</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4292509" sideWeight="0.6012966" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32384342" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.6907563" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2884927" sideWeight="0.6761566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3202847" sideWeight="0.8176661" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.273906" sideWeight="0.3472057" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32384342" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39476812" sideWeight="0.64262563" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30915576" sideWeight="0.52836305" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2235434" sideWeight="0.815235" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.6420168" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266745" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30185497" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listado con datatables" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Upload openstack" />
+    <MESSAGE value="Password reset completo&#10;Posible solución al problema de getelementbyid nulo en algunos casos en la pantalla de login" />
+    <MESSAGE value="reorganizar js" />
+    <MESSAGE value="quitar 'page' de base" />
+    <MESSAGE value="js funcionan las webs con una transicion&#10;" />
+    <MESSAGE value="quitar alert(aa)" />
+    <MESSAGE value="anyadir captcha y intento usar form_end, porque enctype lo eliminaran en futuras versiones" />
+    <MESSAGE value="Fallos en recover y en data-ajax" />
+    <MESSAGE value="fallo en la aparicion directio superior" />
+    <MESSAGE value="Cambio en lugar de mensaje" />
+    <MESSAGE value="Cambio a ingles apiweb" />
+    <MESSAGE value="funciona confirm eliminar carpetas" />
+    <MESSAGE value="subir gif" />
+    <MESSAGE value="addusernoroot" />
+    <MESSAGE value="ultima subida antes de la prueba" />
+    <MESSAGE value="listado usuarios&#10;" />
+    <MESSAGE value="Fallos idioma&#10;&#10;" />
+    <MESSAGE value="Introduccion de em=stacksync&#10;" />
+    <MESSAGE value="sync service + identity&#10;" />
+    <MESSAGE value="2 entrega listado add/delete users - admin" />
+    <MESSAGE value="Reorganizar ficheros dentro de bundles" />
+    <MESSAGE value="ficheros anyadidos" />
+    <MESSAGE value="Anyadir testing 150 usuarios.&#10;Quitar DI en syncservice&#10;&#10;" />
+    <MESSAGE value="uso datatables para paginacion&#10;" />
+    <MESSAGE value="Listado con datatables" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/loginBundle/Controller/DefaultController.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>101</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/SwiftObjectTest.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>210</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Utility/Swift.php</url>
+          <line>109</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Utility/Swift.php</url>
+          <line>110</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Utility/Swift.php</url>
+          <line>102</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>225</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>219</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>229</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/loginBundle/Tests/Controller/DefaultControllerTest.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/loginBundle/Tests/Controller/DefaultControllerTest.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>82</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>126</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Utility/Swift.php</url>
+          <line>117</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/SwiftContainerTest.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/Test.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/Test.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/Test.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/SyncServiceRegistryTest.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>61</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/SyncServiceRegistryTest.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/StorageUserServiceTest.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>147</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>131</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/StorageUserServiceTest.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/StorageUserServiceTest.php</url>
+          <line>70</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/DefaultController.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>109</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>112</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>91</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/SyncserviceBundle/Tests/Controller/SyncServiceRegistryTest.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/Utility/IdentityTest.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/WebUserServiceTest.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/WebUserServiceTest.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <line>222</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <line>151</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <line>184</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/RegisterUserTest.php</url>
+          <line>76</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/StorageSystemBundle/Tests/RegisterUserTest.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/UsuarioRepositoryTest.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Tests/UsuarioRepositoryTest.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <line>229</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="323" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/Default/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Resources/views/Default/registro.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jquery.dataTables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="16" selection-start="442" selection-end="466" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="69" selection-start="4481" selection-end="4481" vertical-scroll-proportion="-6.2156863">
+          <folding>
+            <element signature="e#50#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/CloudspacesBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="-5.9615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/AdminBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="19.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/AdminBundle/Resources/views/Default/ListUsers.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="10" selection-start="5034" selection-end="5172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.40808082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7095436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dmishh/Bundle/RecaptchaBundle/Validator/Constraints/RecaptchaValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dmishh/Bundle/RecaptchaBundle/Validator/Constraints/Recaptcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dmishh/Bundle/RecaptchaBundle/Security/Firewall/RecaptchaFormAuthenticationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.751491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cloud/UsuarioBundle/Entity/Permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="284" selection-end="284" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="721" selection-end="721" vertical-scroll-proportion="0.65625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Unnamed" />
+            <scope name="Unnamed1" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,35 @@
+<?php
+
+namespace Cloud\SyncserviceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Workspace
+ *
+ * @ORM\Table(name="workspace_user")
+ * @ORM\Entity
+ */
+class WorkspaceUser
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="client_workspace_path", type="string", length=100, nullable=true)
+     */
+    private $client_workspace_path;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="bigint", name="workspace_id")
+     */
+    private $workspace_id;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="bigint", name="user_id")
+     */
+    private $user_id;
+}

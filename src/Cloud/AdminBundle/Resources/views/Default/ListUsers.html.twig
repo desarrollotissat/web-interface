@@ -1,0 +1,130 @@
+{#{% extends 'CloudAdminBundle:Default:base.html.twig' %}#}
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+{% block title %}{% trans %}User List{% endtrans %}{% endblock %}
+
+{% block header %}
+    {% trans %}My Cloud{% endtrans %}
+{% endblock %}
+
+{% block page %}
+<div data-role="page" id="{{ path }}">
+    {% endblock %}
+
+{% block content %}
+
+    <a href="{{ path('cloud_listado_container_default') }}" data-role="button" data-inline="true" data-mini="true" data-icon="back">{% trans %}Go back{% endtrans %}</a>
+
+    <a href="{{ path('admin_new_user') }}" data-role="button" data-inline="true" data-mini="true" data-icon="add">{% trans %}Add user{% endtrans %}</a>
+    <a href="" data-role="button" data-inline="true" data-mini="true" data-icon="add">{% trans %}Change user group{% endtrans %}</a>
+
+    {#<a href="{{ path('nuevo_usuario') }}" data-role="button" data-inline="true" data-mini="true" data-icon="delete">{% trans %}Delete users{% endtrans %}</a>#}
+     <p>{% trans %}You have{% endtrans %} {{ form.users|length }} {% trans %}users{% endtrans %}</p>
+    {{ form_start(form, { 'attr': {'id': 'form_users', 'data-ajax': 'false'} } ) }}
+    <input type="submit" data-theme="b" name="{% trans %}Delete users{% endtrans %}" data-inline="true" data-mini="true" id="submit-delete" value="{% trans %}Delete users{% endtrans %}">
+
+    <table data-role="table"  data-column-popup-theme="a" data-mode="column-toggle"
+           data-column-popup-theme="a"
+           class="ui-body-d ui-shadow table-stripe ui-responsive"
+           data-column-btn-theme="b" id="user-table">
+    {#<table id="myTable" class="tablesorter">#}
+    <thead>
+        <tr>
+            <th>
+                <input type="checkbox" name="checkbox-full" id="checkbox-full" data-role="none" class="checkbox_header_allusers"/>
+                {#<label for="checkbox-full"></label>#}
+
+                {#data-mini="true" data-inline="true" data-iconpos="notext"#}
+
+            </th>
+            <th><abbr title="Usuario">{% trans %}User{% endtrans %}</abbr></th>
+            <th>{% trans %}Group{% endtrans %}</th>
+            <th>{% trans %}Status{% endtrans %}</th>
+            <th>{% trans %}Usage (MB){% endtrans %}</th>
+            <th>{% trans %}Operation{% endtrans %}</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for key, user in form.users %}
+            <tr>
+                <td>
+                    {{ form_widget(user, {'attr': {'class': 'checkbox_user'}}) }}
+                </td>
+                <td>
+                    {% set entity = form.users.vars.choices[key].data %}
+                    <a href="{{ path('admin_edit_user', {'id': entity.id}) }}">{{ entity.email }}</a>
+                </td>
+                <td>
+                   {{ entity.grupo|default('Cloudspaces') }}
+                </td>
+                <td>
+                    {{ entity.estado|default('Active') }}
+                </td>
+                <td>
+                    {% if attribute(quotas, entity.email) is defined%}
+                       {{  quotas[entity.email].used}}/{{ quotas[entity.email].limit }}
+                    {% else %}
+                    {{ "Quota not defined" }}
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="#popupBasic-{{ entity.id }}" data-role="button" data-iconpos="notext" data-mini="true" data-inline="true" data-icon="arrow-d" data-rel="popup"></a>
+                    <div data-role="popup" id="popupBasic-{{ entity.id }}">
+                        <p>{{ entity.email }}</p>
+                        <ul data-role="listview">
+                            <li><a href="{{ path('admin_edit_user', {'id': entity.id}) }}">{% trans %}Edit user{% endtrans %}</a></li>
+                            <li><a href="{{ path('admin_delete_user', {'id': entity.id}) }}">{% trans %}Delete user{% endtrans %}</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+
+
+
+    </table>
+    {{ form_end(form) }}
+
+{% endblock %}
+
+{% block css %}
+
+    <link rel="stylesheet"  href="{{ asset('css/jquery.dataTables.css') }}">
+    <link rel="stylesheet"  href="{{ asset('css/jquery.mobile.css') }}">
+{% endblock %}
+{% block jsfiles %}
+    <script src="{{  asset('js/DataTables-1.9.4/media/js/jquery.dataTables.js') }}"></script>
+{% endblock %}
+{% block js %}
+
+
+    $(document).on('pageinit', function(){
+
+        var $table = $("#user-table").dataTable({
+            bRetrieve: true
+        });
+
+        $('#form_users').submit(function(event){
+            {#event.preventDefault();#}
+            var sData = $(":checkbox", $table.fnGetNodes());
+    {#.serialize();#}
+            {#alert( "The following data would have been submitted to the server: \n\n"+sData );#}
+
+            $('div.ui-page-active form').attr('action', '{{ path('admin_delete_users') }}');
+            {#$('div.ui-page-active form')#}
+            var form = $('#form_users');
+            $(form).append(sData);
+            {#$.post( "{{ path('admin_delete_users')}}",#}
+                                        {#sData + "&" + $("#form__token").serialize());#}
+            return true;
+        });
+
+
+        $("#checkbox-full").click(function () {
+            $(":checkbox", $table.fnGetNodes()).prop('checked', $(this).prop('checked'));
+        });
+    });
+{% endblock %}
+

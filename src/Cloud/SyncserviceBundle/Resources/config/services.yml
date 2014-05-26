@@ -1,0 +1,26 @@
+parameters:
+#    cloud_syncservice.example.class: Cloud\SyncserviceBundle\Example
+
+services:
+#    cloud_syncservice.example:
+#        class: %cloud_syncservice.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    StacksyncUser:
+        class:    Cloud\SyncserviceBundle\Entity\User1
+        arguments:  []
+        scope:    prototype
+
+    StacksyncWorkspace:
+        class:    Cloud\SyncserviceBundle\Entity\Workspace
+        arguments:    []
+        scope:    prototype
+
+    StacksyncWorkspaceUser:
+        class:    Cloud\SyncserviceBundle\Entity\WorkspaceUser
+        arguments:    []
+        scope:    prototype
+
+    SyncService:
+        class:      Cloud\SyncserviceBundle\Entity\SyncService
+        arguments:  ["@doctrine.orm.stacksync_entity_manager"]
+        scope:  prototype

@@ -1,0 +1,24 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     symfony
+    database_user:     root
+    database_password: ~
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisTokenIsNotSoSecretChangeIt
+    database_driver_stacksync: pdo_pgsql
+    database_host_stacksync: 10.128.146.150
+    database_port_stacksync: 5432
+    database_name_stacksync: stacksync
+    database_user_stacksync: stacksync
+    database_password_stacksync: stacksync
+    keystone_authurl: 'http://10.128.146.82:5000/v2.0/tokens'
+    keystone_adminurl: 'http://10.128.146.82:35357/v2.0'
+    keystone_secret_token: 012345SECRET99TOKEN012345

@@ -1,0 +1,74 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Create an Account{% endtrans %}
+{% endblock %}
+
+{% block content %}
+    <div data-role="content" data-ajax="false">
+        <div class="idioma">
+                <a href="{{ path("nuevo_usuario", {"_locale": "es"}) }}" data-transition="fade"><img src="{{ asset('imagenes/es.png') }}" alt="Español" /></a>
+                <a href="{{ path("nuevo_usuario", {"_locale": "en"}) }}" data-transition="fade"><img src="{{ asset('imagenes/en.png') }}" alt="English" /></a>
+        </div>
+
+        <form id="registro"  action="{{path('nuevo_usuario')}}" method="POST" {{ form_enctype(formulario) }} data-ajax="false">
+
+            {{ form_widget(formulario) }}
+            {{ form_rest(formulario) }}
+
+
+            <a href="#popupCondiciones" data-rel="popup">{% trans %}Terms and Conditions{% endtrans %}</a>
+            <div data-role="popup" id="popupCondiciones" class="ui-content">
+                <pre>
+Tissat mantiene este servidor con el objetivo de realización de pruebas para el proyecto europeo
+de I+D Cloudspaces. Este es un servicio de desarrollo continuo. La información que introduzca en
+este servidor lo hace bajo su exclusiva responsabilidad, no disponiendo ninguna garantía de
+seguridad o permanencia de los datos, y asumiendo que se trata de un entorno abierto y compartido
+de investigación.
+
+Los documentos en este servidor pueden contener marcadores de hipertexto con conexión
+a información creada y mantenida por otras organizaciones públicas o privadas. Por favor,
+sea consciente de que nosotros no controlamos ni garantizamos que esta información sea precisa,
+relevante, completa o que esté al día. Además, la inclusión de marcadores a ciertos artículos
+en hipertexto no se incluyen con el objetivo de reflejar su importancia,
+ni tampoco con el objetivo de aprobar ningún punto de vista expresado o productos
+o servicios ofrecidos por el autor de la referencia o la organización que opera el servidor
+en el que se encuentra dicha referencia.
+
+Traducciones de cualquier material a otros idiomas distintos del español, servirán solamente
+como una facilidad y prueba de internacionalización del aplicativo.
+</pre>
+            </div>
+
+            <input name="checkbox-1a" id="checkbox-1a" type="checkbox">
+            <label for="checkbox-1a">{% trans %}I have read and agree to the terms{% endtrans %}</label>
+
+
+            <input class="boton" id="postme" type="submit" value="{% trans %}Sign me up{% endtrans %}" />
+
+            <a class="volver" href="{{ path('cloud_cloudspaces_homepage') }}">{% trans %}Go back{% endtrans %}</a>
+        </form>
+
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    $( document ).on( "pageinit", function( event ) {
+            $('#checkbox-1a').prop('checked', false);;
+            $('#postme').button('disable');
+
+            $('#checkbox-1a').click(function(){
+                if($(this).prop('checked')){
+                    $('#postme').button('enable');
+                } else {
+                    $('#postme').button('disable');
+                }
+
+//                $('[type="submit"]').button('refresh');
+            });
+        });
+{% endblock %}
+
+
+

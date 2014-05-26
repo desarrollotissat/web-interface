@@ -1,0 +1,8 @@
+{% block subject 'Hello, '  %}
+
+    {% block body_html %}
+    {% endblock %}
+
+    {% block body_text %}
+        {% trans %}Click to change your password: {% endtrans %}{{ message }}
+    {% endblock %}

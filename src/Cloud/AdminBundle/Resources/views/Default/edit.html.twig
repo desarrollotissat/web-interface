@@ -1,0 +1,26 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Edit user{% endtrans %}{{ entity.email }}
+{% endblock %}
+
+{% block content %}
+    <div data-role="content" data-ajax="false">
+
+        <form id="update"  action="{{ path('admin_update_user', { 'id': entity.id }) }}" method="POST" {{ form_enctype(form) }} data-ajax="false">
+
+            {{ form_widget(form) }}
+            {{ form_rest(form) }}
+
+            <p>
+                <button type="submit">{% trans %}Save{% endtrans %}</button>
+            </p>
+            <a href="{{ path('admin_list_users') }}">{% trans %}Go back{% endtrans %}</a>
+        </form>
+
+    </div>
+
+{% endblock %}
+
+
+

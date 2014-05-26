@@ -1,0 +1,135 @@
+cloud_storage_system:
+    resource: "@CloudStorageSystemBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cloud_syncservice:
+    resource: "@CloudSyncserviceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cloud_usuario:
+    resource: "@CloudCloudspacesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cloud_cloudspaces:
+    resource: "@CloudCloudspacesBundle/Resources/config/routing.yml"
+    prefix:   /cloud
+
+cloud_cloudspaces:
+    resource: "@CloudAdminBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/admin
+
+cloud_cloudspaces_homepage:
+    pattern:   /{_locale}/cloud/
+    defaults: { _controller: CloudCloudspacesBundle:Default:index, _locale: en }
+
+cloud_descargar_fichero:
+    pattern:  /cloud/container/download/{id}
+    defaults: { _controller: CloudCloudspacesBundle:Default:descargarFichero }
+    requirements:
+        id: .+
+
+cloud_eliminar_fichero:
+    pattern:  /cloud/container/eliminar/{id}
+    defaults: { _controller: CloudCloudspacesBundle:Default:eliminarFichero }
+    requirements:
+        id: .*
+
+cloud_confirmar_fichero:
+    pattern:  /cloud/container/confirmar/{id}
+    defaults: { _controller: CloudCloudspacesBundle:Default:confirmarFichero }
+    requirements:
+        id: .*
+
+cloud_listado_container:
+    pattern:  /{_locale}/cloud/container/{path}
+    defaults: { _controller: CloudCloudspacesBundle:Default:mostrarContainer, _locale: en, path: null }
+    requirements:
+        path: .*
+
+cloud_listado_container_default:
+    pattern:  /{_locale}/cloud/container
+    defaults: { _controller: CloudCloudspacesBundle:Default:mostrarContainer, _locale: en, path: null }
+    requirements:
+        path: .*
+#
+cloud_usuario_detalle:
+    pattern:  /{_locale}/cloud/listado/{id}
+    defaults: { _controller: CloudUsuarioBundle:Default:detalle, _locale: en }
+
+cloud_usuario_detalle_default:
+    pattern:  /cloud/listado/{id}
+    defaults: { _controller: CloudUsuarioBundle:Default:detalle }
+
+modificar_usuario:
+    pattern:  /cloud/edit/{id}
+    defaults: { _controller: CloudUsuarioBundle:Default:edit }
+
+nuevo_usuario:
+    pattern:  /{_locale}/new/
+    defaults: { _controller: CloudUsuarioBundle:Default:new, _locale:en }
+
+nuevo_usuario_default:
+    pattern:  /new/
+    defaults: { _controller: CloudUsuarioBundle:Default:new }
+
+recover:
+    pattern:  /{_locale}/recover
+    defaults: { _controller: CloudloginBundle:Default:recover, _locale:en }
+
+passwordreset:
+    pattern:  /{_locale}/passwordreset/{token}
+    defaults: { _controller: CloudUsuarioBundle:Default:passwordReset, _locale:en }
+    requirements:
+      token: .+
+
+nuevo_usuario_cloud:
+    pattern:  /cloud/new/
+    defaults: { _controller: CloudUsuarioBundle:Default:newCloud }
+
+login:
+    pattern: /{_locale}/login
+    defaults: { _controller: CloudloginBundle:Default:login, _locale:en}
+
+upload:
+    pattern: /{_locale}/upload/{path}
+    defaults: { _controller: CloudCloudspacesBundle:Default:upload, _locale: en, path: null}
+    requirements:
+      path: .*
+
+crear_carpeta:
+    pattern: /{_locale}/folder/{path}
+    defaults: { _controller: CloudCloudspacesBundle:Default:crearCarpeta, _locale: en, path: null}
+    requirements:
+      path: .*
+
+#    resource: "@CloudloginBundle/Resources/config/routing.yml"
+login_default:
+    pattern: /login
+    defaults: { _controller: CloudloginBundle:Default:login, _locale: en}
+
+login_check:
+    pattern: /{_locale}/login_check
+    defaults: { _locale: en}
+
+login_check_default:
+    pattern: /login_check
+    defaults: {_locale: en}
+
+cloud_cloudspaces_homepage_root:
+    pattern:  /
+    defaults: { _controller: CloudCloudspacesBundle:Default:index }
+
+logout:
+    pattern: /logout
+
+portada:
+    pattern: /
+
+# Internal routing configuration to handle ESI
+# ****** WARNING ******
+# This route should be enabled with caution as it can open a security vulnerability
+# see http://symfony.com/blog/security-release-symfony-2-0-20-and-2-1-5-released for more information
+# ****** WARNING ******
+#_internal:
+#    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#    prefix:   /_internal

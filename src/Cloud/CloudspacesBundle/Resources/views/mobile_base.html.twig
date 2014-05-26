@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
+    <title>{% block title %}Cloudspaces{% endblock %}</title>
+    {% block css %}
+         <link rel="stylesheet"  href="{{ asset('css/jquery.mobile.css') }}">
+    {% endblock %}
+    <script src="{{ asset('js/jquery.js') }}"></script>
+
+    <script type='text/javascript'>
+        {% block js %}
+        {% endblock %}
+    </script>
+    {% block jsfiles %}
+    {% endblock %}
+    <script src="{{  asset('js/jquery.mobile/jquery.mobile-1.3.2.js') }}"></script>
+
+
+</head>
+
+{% set usuario = app.user %}
+
+<body>
+
+{% block page %}
+<div data-role="page" id="main">
+{% endblock %}
+    {#<div class="symfony-content">#}
+        <div data-role="header">
+            <h1>
+                {#{% block logo %}#}
+                <img src="{{ asset('imagenes/Nube.png') }}" alt="Logo, cloudspaces" class="ui-block-a ui-btn-left"/>
+                {#<span class=ui-block-b>#}
+                {% block header %}
+                {% endblock %}
+                {#</span>#}
+                 <img src="{{ asset('imagenes/logo-tissat38.png') }}" alt="Logo, tissat" class="ui-block-c ui-btn-right"/>
+                {#{% endblock %}#}
+
+            </h1>
+        </div>
+
+        <div data-role="content">
+            {% if error is defined %}
+                <div>{{ error }}</div>
+            {% endif %}
+            {% if message is defined %}
+                <div >{{ message|trans }}</div>
+            {% endif %}
+            {% block content %}
+            {% endblock %}
+        </div>
+
+    {#</div>#}
+
+    <div data-role=footer data-position=fixed>
+            {% block footer %}
+            {% endblock %}
+    </div>
+    {% block popup %}
+    {% endblock %}
+
+</div><!-- /page -->
+</body>
+</html>

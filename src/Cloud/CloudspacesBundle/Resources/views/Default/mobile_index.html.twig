@@ -1,0 +1,143 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block title %}{% trans %}My Cloud{% endtrans %}{% endblock %}
+
+{% block header %}
+        {% trans %}My Cloud{% endtrans %}
+{% endblock %}
+
+{% block page %}
+<div data-role="page" id="{{ path }}">
+{% endblock %}
+
+{% block content %}
+
+    <div data-role="collapsible-set" data-inset="false" data-theme="c"id="set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+        {% if pathPadre is defined and pathPadre != path %}
+            <div data-role="collapsible" id="set1" data-collapsed="true">
+                <h3><a href="{{ path('cloud_listado_container', {'path': pathPadre}) }}" class="collapsible-folder-link" data-ajax="false">
+                        <img src="{{ asset('imagenes/parentDirectory.png') }}" alt="{{ path }}"/>
+                    </a>
+                </h3>
+            </div>
+        {% endif %}
+
+        {% if directorios is empty %}
+            <p>
+                {% trans %}(Empty folder){% endtrans %}
+            </p>
+
+        {% endif %}
+        {% for directorio in directorios %}
+                <div data-role="collapsible">
+                {% if directorio.is_folder %}
+                        <h3>
+                            <img src="{{ asset('imagenes/folder.blue.16.png') }}" alt="{{directorio.filename }}" class="ui-li-icon" />
+                            {{directorio.filename }}
+                            <a href="{{ path('cloud_listado_container', {'path': directorio.file_id}) }}" class="collapsible-folder-link" data-ajax="false"></a>
+                        </h3>
+                {% else %}
+                    <h3><img src="{{ asset('imagenes/file16.png') }}" alt="{{directorio.filename }}" class="ui-li-icon" />
+                        {{directorio.filename }}
+                    </h3>
+                    <div data-role="navbar" data-iconpos="top">
+                        <ul>
+                            <li>
+                                <a href="{{ path('cloud_descargar_fichero', {'id': directorio.filename ~ '/' ~ directorio.file_id}) }}" data-icon="arrow-d" data-ajax="false">
+                                    {% trans %}Download{% endtrans %}
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="{{ path('cloud_eliminar_fichero', {'id': directorio.file_id}) }}" class="eliminar-popup" data-icon="delete" >
+                                    {% trans %}Delete{% endtrans %}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                {% endif %}
+                </div>
+        {% endfor %}
+
+    </div>
+{% endblock %}
+
+{% block footer %}
+
+    <div data-role="navbar">
+        <ul>
+            <li>
+                <a href="{{ path('cloud_cloudspaces_homepage')}}" data-icon="refresh">{% trans %} Home{% endtrans %}</a></li>
+            <li>
+                <a href="{{ path('upload',{'path': path}) }}" data-icon="arrow-u" data-ajax="false">
+                    {% trans %}Upload{% endtrans %} </a>
+            </li>
+            <li>
+                <a href="#popupPanel" data-icon="gear" data-transition="slideup" data-rel="popup">{% trans %} More{% endtrans %}</a>
+                <div data-role="popup" id="popupPanel" data-theme="a">
+                    <span data-role="controlgroup" data-type="horizontal">
+                        <a href="{{ path('cloud_usuario_detalle',{'id': usuario.id}) }}" id="menu-item-1"  data-icon="info">{% trans %} Profile{% endtrans %}</a>
+                        <a  href="{{ path('crear_carpeta',{'path': path}) }}" id="menu-item-3" data-icon="plus">{% trans %}Create folder{% endtrans %}</a>
+                        <a href="{{ path('cloud_eliminar_fichero',{'id': path}) }}" id="menu-item-eliminar" class="eliminar-popup-afterclose" data-icon="minus">{% trans %}Delete folder{% endtrans %}</a>
+                    </span>
+                </div>
+            </li>
+            <li><a href="{{ path('logout') }} " data-icon=delete>{% trans %}Log out{% endtrans %}</a></li>
+        </ul>
+    </div>
+{% endblock %}
+
+{% block popup %}
+<div data-role="popup" id="popupDialogDelete" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+    <div data-role="header" data-theme="a" class="ui-corner-top">
+        <h1>{% trans %}Delete{% endtrans %}</h1>
+    </div>
+    <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+        <h3 class="ui-title">{% trans %}Are you sure you want to delete this object?{% endtrans %}</h3>
+        <p>{% trans %}This action cannot be undone.{% endtrans %}</p>
+        <a href="#" data-role="button" data-inline="true" data-rel="back" data-rel="back" data-theme="c">{% trans %}Cancel{% endtrans %}</a>
+        <a id="eliminar-id" href="" data-role="button" data-inline="true" data-theme="b">{% trans %}Delete{% endtrans %}</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block js  %}
+
+    $(document).on('pageinit', function(){
+        $(document).on('click', 'div.ui-page-active a.eliminar-popup',function(event) {
+
+            event.preventDefault();
+
+            $("div.ui-page-active #eliminar-id").attr('href', $(this).attr('href'));
+            $("div.ui-page-active #popupDialogDelete").popup( "open" );
+
+        });
+        $(".ui-collapsible-heading-toggle").click(function (event) {
+            console.log( event );
+
+            var $link = $(this).find('.collapsible-folder-link');
+            if ($link.length > 0){
+                event.preventDefault();
+                event.stopPropagation();
+                $.mobile.changePage($link.attr('href'), {reloadPage: true} );
+            }
+        });
+
+        $(".eliminar-popup-afterclose").click(function (event) {
+            console.log( event );
+            event.preventDefault();
+            {#event.stopPropagation();#}
+            var $url = $(this).attr('href');
+            $("div.ui-page-active  #popupPanel").on({
+                popupafterclose: function() {
+                    setTimeout(function() {
+                            $("div.ui-page-active #eliminar-id").attr('href', $url );
+                            $("div.ui-page-active  #popupDialogDelete").popup( "open" );
+                        }, 100 );
+                    }
+                });
+            $("div.ui-page-active #popupPanel").popup( "close" );
+        });
+    });
+{% endblock %}
+

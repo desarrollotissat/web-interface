@@ -1,0 +1,35 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+{% block header %}
+        {% trans %}Edit profile{% endtrans %}
+{% endblock%}
+
+{% block content %}
+    <div data-role="content">
+        {{ form_errors(formulario) }}
+        <form id="edit"  action="{{path('modificar_usuario', {'id': user_id})}}" method="POST" {{ form_enctype(formulario) }}>
+
+            {{ form_row(formulario.nombre) }}
+            {{ form_row(formulario.email) }}
+
+            {{ form_row(formulario.apellido1) }}
+            {{ form_row(formulario.apellido2) }}
+            {{ form_row(formulario.password) }}
+
+
+            {{ form_row(formulario.fecha_nacimiento) }}
+            {{ form_row(formulario.movil) }}
+
+            {{ form_row(formulario.idioma) }}
+            {{ form_row(formulario.imagen, { 'attr': {'onclick': "this.value=''"} }) }}
+
+            {{ form_row(formulario.recordatorio) }}
+            {#{{ form_rest(formulario) }}#}
+            {{ form_widget(formulario._token) }}
+
+            <input class="boton" type="submit" value="{% trans %}Save changes{% endtrans %}" />
+
+            <a class="volver" href="{{ path('cloud_cloudspaces_homepage') }}">{% trans %}Go back{% endtrans %}</a>
+        </form>
+    </div>
+
+{% endblock %}

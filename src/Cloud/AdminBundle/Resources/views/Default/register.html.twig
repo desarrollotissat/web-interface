@@ -1,0 +1,30 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Create an Account{% endtrans %}
+{% endblock %}
+
+{% block content %}
+    <div data-role="content" data-ajax="false">
+        <div class="idioma">
+                <a href="{{ path("admin_create_user", {"_locale": "es"}) }}" data-transition="fade"><img src="{{ asset('imagenes/es.png') }}" alt="Español" /></a>
+                <a href="{{ path("admin_create_user", {"_locale": "en"}) }}" data-transition="fade"><img src="{{ asset('imagenes/en.png') }}" alt="English" /></a>
+        </div>
+
+        <form id="registro"  action="{{path('admin_create_user')}}" method="POST" {{ form_enctype(form) }} data-ajax="false">
+
+            {{ form_widget(form) }}
+            {{ form_rest(form) }}
+
+            <p>
+                <button type="submit">{% trans %}Create{% endtrans %}</button>
+            </p>
+            <a href="{{ path('admin_list_users') }}">{% trans %}Go back{% endtrans %}</a>
+        </form>
+
+    </div>
+
+{% endblock %}
+
+
+

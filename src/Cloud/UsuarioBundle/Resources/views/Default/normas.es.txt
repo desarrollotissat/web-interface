@@ -1,0 +1,20 @@
+<pre>
+Tissat mantiene este servidor con el objetivo de realización de pruebas para el proyecto europeo
+de I+D Cloudspaces. Este es un servicio de desarrollo continuo. La información que introduzca en
+este servidor lo hace bajo su exclusiva responsabilidad, no disponiendo ninguna garantía de
+seguridad o permanencia de los datos, y asumiendo que se trata de un entorno abierto y compartido
+de investigación.
+
+Los documentos en este servidor pueden contener marcadores de hipertexto con conexión
+a información creada y mantenida por otras organizaciones públicas o privadas. Por favor,
+sea consciente de que nosotros no controlamos ni garantizamos que esta información sea precisa,
+relevante, completa o que esté al día. Además, la inclusión de marcadores a ciertos artículos
+en hipertexto no se incluyen con el objetivo de reflejar su importancia,
+ni tampoco con el objetivo de aprobar ningún punto de vista expresado o productos
+o servicios ofrecidos por el autor de la referencia o la organización que opera el servidor
+en el que se encuentra dicha referencia.
+
+Traducciones de cualquier material a otros idiomas distintos del español, servirán solamente
+como una facilidad y prueba de internacionalización del aplicativo.
+
+</pre>

@@ -1,0 +1,39 @@
+#cloud_admin_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: CloudAdminBundle:Default:index }
+
+admin_list_users:
+    pattern:  /listUsers
+    defaults: { _controller: "CloudAdminBundle:User:listUsers" }
+
+admin_list_users_paginated:
+    pattern:  /listUsersPaginated
+    defaults: { _controller: "CloudAdminBundle:User:listUsersPaginated" }
+
+admin_new_user:
+    pattern:  /new
+    defaults: { _controller: "CloudAdminBundle:User:new" }
+
+admin_create_user:
+    pattern:  /create
+    defaults: { _controller: "CloudAdminBundle:User:create" }
+    requirements: { _method: post }
+
+admin_edit_user:
+    pattern:  /{id}/edit
+    defaults: { _controller: "CloudAdminBundle:User:edit" }
+
+admin_update_user:
+    pattern:  /{id}/update
+    defaults: { _controller: "CloudAdminBundle:User:update" }
+    requirements: { _method: post }
+
+admin_delete_user:
+    pattern:  /{id}/delete
+    defaults: { _controller: "CloudAdminBundle:User:delete" }
+#    requirements: { _method: post }
+
+admin_delete_users:
+    pattern:  /deleteUsers
+    defaults: { _controller: "CloudAdminBundle:User:deleteUsers" }
+    requirements: { _method: post }

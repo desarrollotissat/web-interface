@@ -1,0 +1,30 @@
+parameters:
+#    cloud_storage_system.example.class: Cloud\StorageSystemBundle\Example
+    keystone_identity.admintoken:   "%keystone_secret_token%"
+    keystone_identity.keystone_adminurl:   "%keystone_adminurl%"
+    swift.keystone_url:   "%keystone_authurl%"
+
+services:
+#    cloud_storage_system.example:
+#        class: %cloud_storage_system.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    httpclient:
+        class:        Cloud\StorageSystemBundle\Utility\HTTPClient
+        arguments:    []
+        scope:    prototype
+
+    keystone_identity:
+        class:        Cloud\StorageSystemBundle\Utility\Identity
+        arguments:    ["@httpclient",  "%keystone_identity.keystone_adminurl%", "%keystone_identity.admintoken%"]
+        scope:    prototype
+
+    swift:
+        class:    Cloud\StorageSystemBundle\Utility\Swift
+        arguments:    ["@httpclient", "%swift.keystone_url%"]
+        scope:    prototype
+
+    StorageUserService:
+        class:    Cloud\StorageSystemBundle\Utility\StorageUserService
+        arguments:    ["@keystone_identity", "@SyncService", "@swift"]
+        scope:    prototype
+

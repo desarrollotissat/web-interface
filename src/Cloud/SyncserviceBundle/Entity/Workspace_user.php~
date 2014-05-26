@@ -1,0 +1,114 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: almartinez
+ * Date: 8/11/13
+ * Time: 9:16
+ * To change this template use File | Settings | File Templates.
+ */
+
+namespace Cloud\SyncserviceBundle\Entity;
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Workspace_user
+ *
+ * @ORM\Table(name="workspace_user")
+ * @ORM\Entity
+ */
+class Workspace_user
+{
+//    /**
+//     * @var \Cloud\SyncserviceBundle\Entity\Workspace
+//     *
+//     * @@ORM\OneToOne(targetEntity="Cloud\SyncserviceBundle\Entity\Workspace")
+//     * @@ORM\JoinColumn(name="workspace_id", referencedColumnName="id")
+//     **/
+    private $workspace;
+//
+//    /**
+//     * @var \Cloud\SyncserviceBundle\Entity\User1
+//     *
+//     * @@ORM\OneToOne(targetEntity="Cloud\SyncserviceBundle\Entity\User1")
+//     * @@ORM\JoinColumn(name="user_id", referencedColumnName="id")
+//     **/
+    private $user;
+//
+//    /**
+//     * @ORM\Column(type="string", length=255, nullable=true)
+//     */
+    private $client_workspace_path;
+//
+//
+//    /**
+//     * Set client_workspace_path
+//     *
+//     * @param string $clientWorkspacePath
+//     * @return Workspace_user
+//     */
+//    public function setClientWorkspacePath($clientWorkspacePath)
+//    {
+//        $this->client_workspace_path = $clientWorkspacePath;
+//
+//        return $this;
+//    }
+//
+//    /**
+//     * Get client_workspace_path
+//     *
+//     * @return string
+//     */
+//    public function getClientWorkspacePath()
+//    {
+//        return $this->client_workspace_path;
+//    }
+//
+//    /**
+//     * Set user
+//     *
+//     * @param \Cloud\SyncserviceBundle\Entity\User1 $owner
+//     * @return Workspace
+//     */
+//    public function setUser(\Cloud\SyncserviceBundle\Entity\User1 $user = null)
+//    {
+//        $this->user = $user;
+//
+//        return $this;
+//    }
+//
+//    /**
+//     * Get user
+//     *
+//     * @return \Cloud\SyncserviceBundle\Entity\User1
+//     */
+//    public function getUser()
+//    {
+//        return $this->user;
+//    }
+//
+//
+//    /**
+//     * Set workspace
+//     *
+//     * @param \Cloud\SyncserviceBundle\Entity\Workspace $workspace
+//     * @return Workspace_user
+//     */
+//    public function setWorkspace(\Cloud\SyncserviceBundle\Entity\Workspace $workspace = null)
+//    {
+//        $this->workspace = $workspace;
+//
+//        return $this;
+//    }
+//
+//    /**
+//     * Get workspace
+//     *
+//     * @return \Cloud\SyncserviceBundle\Entity\Workspace
+//     */
+//    public function getworkspace()
+//    {
+//        return $this->workspace;
+//    }
+
+
+}

@@ -1,0 +1,3 @@
+cloud_syncservice_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CloudSyncserviceBundle:Default:index }

@@ -1,0 +1,47 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Log in{% endtrans %}
+{% endblock %}
+
+{% block content %}
+    <div data-role="none" data-ajax="false">
+        {% if errorauth %}
+            <div class="error">{{ errorauth.message }}</div>
+        {% endif %}
+
+        <form action="{{ path("login_check", {'_locale': app.request.attributes.get('_locale')}) }}" method="post" id="login" data-ajax="false">
+            <div>
+                <label for="username">{% trans %}User{% endtrans %}</label>
+                <input type="text" class="ui-input-text" placeholder="Email address" id="username" name="_username" value="{{ last_username }}" />
+                {#<p class="ejemplo">Ej: tissat@cloudspaces.eu </p>#}
+            </div>
+
+            <div>
+                <label for="password-a">{% trans %}Password{% endtrans %}</label>
+                <input name="_password" id="password-a" placeholder="Password" autocomplete="off" type="password" value="">
+            </div>
+
+            <input type="submit" id="submit-id" value="{% trans %}Enter{% endtrans %}" />
+
+        </form>
+    </div>
+
+
+    <div>
+        <a href="{{ path("nuevo_usuario", {"_locale": app.request.attributes.get('_locale') }) }}"  data-ajax="false" data-transition="fade">{% trans %}Create an account{% endtrans %}</a>
+    </div>
+    <div>
+        <a href="{{ path("recover") }}" data-transition="fade">{% trans %}Forgot my password{% endtrans %}</a>
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <div>
+            <a href="{{ path("login", {"_locale": "es"}) }}" data-transition="fade">Spanish</a>
+            <a href="{{ path("login", {"_locale": "en"}) }}" data-transition="fade">English</a>
+        </div>
+    </div>
+
+    <script src="{{ asset('js/cloud.js') }}" type="text/javascript"></script>
+{% endblock %}

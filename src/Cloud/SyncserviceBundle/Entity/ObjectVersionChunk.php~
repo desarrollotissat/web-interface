@@ -1,0 +1,44 @@
+<?php
+
+namespace Cloud\SyncserviceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ObjectVersionChunk
+ *
+ * @ORM\Table(name="object_version_chunk")
+ * @ORM\Entity
+ */
+class ObjectVersionChunk
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="client_chunk_name", type="string", length=40)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $clientChunkName;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="chunk_order", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $chunkOrder;
+
+    /**
+     * @var \Cloud\SyncserviceBundle\Entity\ObjectVersion
+     *
+     * @ORM\OneToOne(targetEntity="Cloud\SyncserviceBundle\Entity\ObjectVersion")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="object_version_id", referencedColumnName="id", unique=true)
+     * })
+     */
+    private $objectVersion;
+
+
+}

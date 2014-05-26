@@ -1,0 +1,17 @@
+parameters:
+#    cloud_usuario.example.class: Cloud\UsuarioBundle\Example
+
+services:
+#    cloud_usuario.example:
+#        class: %cloud_usuario.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    User:
+        class:    Cloud\UsuarioBundle\Entity\Usuarios
+        arguments:    []
+        scope:   prototype
+
+    WebUserService:
+        class:    Cloud\UsuarioBundle\WebUserService
+        arguments:    ["@doctrine.orm.default_entity_manager", "@security.encoder_factory"]
+        scope:    prototype

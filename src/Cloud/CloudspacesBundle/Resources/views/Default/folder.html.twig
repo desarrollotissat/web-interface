@@ -1,0 +1,21 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Create folder{% endtrans %}
+{% endblock %}
+
+{% block page %}
+<div data-role="page" id="folder">
+{% endblock %}
+
+{% block content %}
+    {{ form_errors(formulario) }}
+    <form action="{{path('crear_carpeta',{'path': path } )}}" method="post" {{ form_enctype(formulario) }}>
+        {{ form_widget(formulario) }}
+        {{ form_rest(formulario) }}
+
+    </form>
+
+    <a data-ajax="false" href="{{ path('cloud_listado_container',{'path': path }) }} ">{% trans %}Go back{% endtrans %}</a>
+
+{% endblock %}

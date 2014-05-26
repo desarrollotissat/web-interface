@@ -1,0 +1,91 @@
+{% extends 'CloudCloudspacesBundle::portada.html.twig' %}
+
+
+{% block contentleft %}
+	
+	<div class="separador"> </div>
+ 	
+ 	<a href="{{ path('cloud_usuario_listado') }}" class="symfony-button-grey"> Usuarios </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Grupos </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Alertas </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Espacio en disco </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Análisis </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Facturación </a>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	{% if usuario.admin == 1 %}
+ 		<a class="symfony-button-grey"> Configuración del sistema </a>
+ 	{% endif %}
+ 	<div class="separador"> </div>
+    
+{% endblock %}               	
+
+{% block content %}
+	
+	<form id="registro" action="{{path('nuevo_usuario_cloud')}}" method="POST" {{ form_enctype(formulario) }}>
+		
+ 		{{ form_widget(formulario) }} 
+ 		
+ 		{{ form_rest(formulario) }} 		
+ 	
+ 		<input class="boton" type="submit" value="Guardar cambios" />		
+ 		
+ 	</form>
+ 	
+    
+{% endblock %}
+
+{% block contentright %}
+	
+	<div class="separador"> </div>
+	
+	<img src="{{ asset('imagenes/nube.png') }}" alt="Cloudspaces" />
+	
+	<a href="">Mi nube</a> 	
+
+	<div class="separador"> </div>
+ 	
+ 	<img src="{{ asset('imagenes/agenda.png') }}" alt="Cloudspaces" />
+ 	
+ 	<a href="">Agenda</a>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	<img src="{{ asset('imagenes/aplicaciones.png') }}" alt="Cloudspaces" /> 	
+ 	
+ 	<a href="">Aplicaciones</a>
+
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<img src="{{ asset('imagenes/servicios.png') }}" alt="Cloudspaces" />
+	
+	<a href="">Servicios</a>
+ 	
+ 	<div class="separador"> </div>
+	
+    
+{% endblock %}

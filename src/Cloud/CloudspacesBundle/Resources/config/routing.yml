@@ -1,0 +1,7 @@
+cloud_cloudspaces_homepage:
+    pattern:  /
+    defaults: { _controller: CloudCloudspacesBundle:Default:index }
+
+cloud_cloudspaces_homepage:
+    pattern:  /cloud
+    defaults: { _controller: CloudCloudspacesBundle:Default:index }

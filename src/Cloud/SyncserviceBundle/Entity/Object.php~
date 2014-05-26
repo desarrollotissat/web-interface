@@ -1,0 +1,109 @@
+<?php
+
+namespace Cloud\SyncserviceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Object
+ *
+ * @ORM\Table(name="object")
+ * @ORM\Entity
+ */
+class Object
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="root_id", type="string", length=45, nullable=false)
+     */
+    private $rootId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="latest_version", type="bigint", nullable=false)
+     */
+    private $latestVersion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="client_file_id", type="bigint", nullable=false)
+     */
+    private $clientFileId;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="client_file_name", type="string", length=100, nullable=false)
+     */
+    private $clientFileName;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="client_file_mimetype", type="string", length=45, nullable=false)
+     */
+    private $clientFileMimetype;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="client_folder", type="boolean", nullable=false)
+     */
+    private $clientFolder;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="client_parent_root_id", type="string", length=45, nullable=true)
+     */
+    private $clientParentRootId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="client_parent_file_id", type="bigint", nullable=true)
+     */
+    private $clientParentFileId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="client_parent_file_version", type="bigint", nullable=true)
+     */
+    private $clientParentFileVersion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="bigint")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="object_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \Cloud\SyncserviceBundle\Entity\Object
+     *
+     * @ORM\ManyToOne(targetEntity="Cloud\SyncserviceBundle\Entity\Object")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="parent_id", referencedColumnName="id")
+     * })
+     */
+    private $parent;
+
+    /**
+     * @var \Cloud\SyncserviceBundle\Entity\Workspace
+     *
+     * @ORM\ManyToOne(targetEntity="Cloud\SyncserviceBundle\Entity\Workspace")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="workspace_id", referencedColumnName="id")
+     * })
+     */
+    private $workspace;
+
+
+}

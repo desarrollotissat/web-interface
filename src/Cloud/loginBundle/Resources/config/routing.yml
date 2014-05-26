@@ -1,0 +1,11 @@
+#_welcome_languages:
+#    pattern:  /{_locale}/login
+#    defaults: { _controller: CloudloginBundle:Default:login }
+
+#_welcome:
+#    pattern:  /login
+#    defaults: { _controller: CloudloginBundle:Default:index }
+#    
+#cloudlogin_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: CloudloginBundle:Default:index }

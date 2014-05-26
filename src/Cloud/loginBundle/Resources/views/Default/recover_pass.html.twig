@@ -1,0 +1,14 @@
+{% extends 'CloudCloudspacesBundle::mobile_base.html.twig' %}
+
+{% block header %}
+        {% trans %}Password recovery{% endtrans %}
+{% endblock %}
+
+{% block content %}
+
+    <div>
+        {{ form(form) }}
+        <a class="volver" href="{{ path('cloud_cloudspaces_homepage') }}">{% trans %}Go back{% endtrans %}</a>
+    </div>
+
+{% endblock %}

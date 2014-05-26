@@ -1,0 +1,188 @@
+{% extends 'CloudCloudspacesBundle::portada.html.twig' %}
+
+{% set usuarioLogin = app.user %}
+
+{% block contentleft %}
+	
+	<div class="separador"> </div>
+ 	
+ 	{% if usuario.admin == 1 %} 	
+ 		<a href="{{ path('cloud_usuario_listado') }}" class="symfony-button-grey"> Usuarios </a>
+ 	{% else %}
+ 		<a href="{{ path('cloud_usuario_detalle',{'id': usuarioLogin.id}) }}" class="symfony-button-grey"> Mi perfil </a>
+ 	{% endif%}
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Grupos </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Alertas </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Espacio en disco </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Análisis </a>
+ 	
+ 	<div class="separadormini"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Facturación </a>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	<a class="symfony-button-grey"> Configuración del sistema </a>
+ 	
+ 	<div class="separador"> </div>
+    
+{% endblock %}
+
+{% block leftBeforeContent %}
+	<img src="{{ asset('imagenes/ayuda.png') }}" alt="Ayuda" />
+{% endblock %}
+                	
+
+{% block content %}
+	<div class="separador"> </div>
+	
+	<form action="{{path('modificar_usuario', {'id': id})}}" method="POST">
+	
+		{{ form_errors(formulario) }}
+	
+		<div id="fila">
+		
+			{{ form_row(formulario.nombre) }}
+			
+			{{ form_row(formulario.email) }}
+			
+		</div>
+		
+		<div id="fila">
+		
+			{{ form_row(formulario.apellido1) }}
+						
+			{{ form_row(formulario.password) }}
+			
+			
+		</div>
+		
+		<div id="fila">
+		
+			{{ form_row(formulario.apellido2) }}			
+			
+		</div>
+		
+		<div id="fila">
+		
+			{{ form_row(formulario.fecha_nacimiento) }}		
+			
+			{{ form_row(formulario.movil) }}	
+			
+		</div>
+		
+		<div id="fila">
+		
+			{{ form_row(formulario.idioma) }}		
+			
+			{{ form_row(formulario.imagen, { 'attr': {'onclick': "this.value=''"} }) }}
+			
+		</div>
+		
+		<div id="fila">
+		
+			{{ form_row(formulario.recordatorio) }}		
+			
+		</div>
+				
+		
+		<input class="boton" type="submit" value="Guardar cambios" />
+		
+		
+		
+		{% if usuario.admin == 1 %}
+			<div class="separador"> </div>
+			
+			<div id="filaAdmin">
+		
+				{{ form_row(formulario.perfil,{ 'separator': '--------' }) }}				
+			
+			</div>
+			
+			<div id="filaAdmin">
+		
+				{{ form_row(formulario.grupo,{ 'separator': '--------' }) }}				
+				
+				<img src="{{ asset('imagenes/nuevo_grupo.JPG') }}" alt="Cloudspaces" />
+			</div>
+			
+			<div id="filaAdmin">
+		
+				{{ form_row(formulario.estado,{ 'separator': '--------' }) }}				
+			
+			</div>
+			
+			<div id="filaAdmin">
+		
+				{{ form_row(formulario.Ultimoacceso) }}				
+			
+			</div>
+		
+			{{ form_rest(formulario) }}
+				
+		{% endif %}
+		
+		{{ form_widget(formulario._token) }}
+	
+	</form>
+    
+{% endblock %}
+
+{% block contentright %}
+	
+	<div class="separador"> </div>
+	
+	<img src="{{ asset('imagenes/nube.png') }}" alt="Cloudspaces" />
+	
+	<a href="">Mi nube</a> 	
+
+	<div class="separador"> </div>
+ 	
+ 	<img src="{{ asset('imagenes/agenda.png') }}" alt="Cloudspaces" />
+ 	
+ 	<a href="">Agenda</a>
+ 	
+ 	<div class="separador"> </div>
+ 	
+ 	<img src="{{ asset('imagenes/aplicaciones.png') }}" alt="Cloudspaces" /> 	
+ 	
+ 	<a href="">Aplicaciones</a>
+
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<div class="separador"> </div>
+	
+	<img src="{{ asset('imagenes/servicios.png') }}" alt="Cloudspaces" />
+	
+	<a href="">Servicios</a>
+ 	
+ 	<div class="separador"> </div>
+	
+    
+{% endblock %}
+
+{% block beforeContent %}
+	<img src="{{ asset('imagenes/crear_directorio.png') }}" alt="Cloudspaces" />
+	
+	<img src="{{ asset('imagenes/eliminar_directorio.png') }}" alt="Cloudspaces" />
+	
+	<img src="{{ asset('imagenes/subir_fichero.png') }}" alt="Cloudspaces" />
+{% endblock %}
